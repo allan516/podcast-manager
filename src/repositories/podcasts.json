@@ -14,8 +14,22 @@
 
   {
     "podcastName": "venus",
-    "episode": "RUBENS BARRICHELLO - Flow #339",
+    "episode": "xuxa - venus",
     "videoId": "4KDGTdiOV4I",
     "categories": ["esporte", "corrida"]
+  },
+
+  {
+    "podcastName": "Inteligência Ltda",
+    "episode": "PROF LÚCIA HELENA - Inteligência Ltda. #1385",
+    "videoId": "OIsWe4gAerY",
+    "categories": ["bem-estar"]
+  },
+
+  {
+    "podcastName": "Inteligência Ltda",
+    "episode": "LAMARTINE POSELLA - Inteligência Ltda. #1386",
+    "videoId": "Wu5KB2ceNX4",
+    "categories": ["religião"]
   }
 ]

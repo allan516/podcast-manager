@@ -6,6 +6,11 @@ Podcast Manager é uma API desenvolvida com o módulo nativo `http` do Node.js. 
 - Buscar episódios específicos com base no nome do podcast.
 - Retorno de status HTTP adequado quando não há resultados.
 
+## Tecnologias Utilizadas
+
+- Node.js
+- TypeScript
+
 ## Endpoints
 
 ### 1. Listar todos os podcasts
@@ -24,10 +29,10 @@ Podcast Manager é uma API desenvolvida com o módulo nativo `http` do Node.js. 
     "categories": ["saúde", "esporte", "bodybuilder"]
   },
   {
-    "podcastName": "venus",
-    "episode": "RUBENS BARRICHELLO - Flow #339",
-    "videoId": "4KDGTdiOV4I",
-    "categories": ["esporte", "corrida"]
+    "podcastName": "Inteligência",
+    "episode": "LAMARTINE POSELLA - Inteligência Ltda. #1386",
+    "videoId": "Wu5KB2ceNX4",
+    "categories": ["religião"]
   }
 ]
 ```
@@ -35,17 +40,17 @@ Podcast Manager é uma API desenvolvida com o módulo nativo `http` do Node.js. 
 ### 2. Buscar um episódio específico
 
 **Método**: `GET`
-**URL**: `/api/podcasts?p=venus`
+**URL**: `/api/podcasts?p=Inteligência`
 
 **Resposta (quando encontrado):**
 
 ```json
 [
   {
-    "podcastName": "venus",
-    "episode": "RUBENS BARRICHELLO - Flow #339",
-    "videoId": "4KDGTdiOV4I",
-    "categories": ["esporte", "corrida"]
+    "podcastName": "Inteligência",
+    "episode": "LAMARTINE POSELLA - Inteligência Ltda. #1386",
+    "videoId": "Wu5KB2ceNX4",
+    "categories": ["religião"]
   }
 ]
 ```
